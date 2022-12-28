@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    padding-right: 15%;
+    padding-top: 2%;
+    color: rgb(182, 178, 178);
+}
+
+h2 {
+    text-align: center;
+    padding-right: 12%;
+    color: rgb(182, 178, 178);
+}
+
+h3{
+    font-size: 24px;
+    color: #3b2621;
+    text-transform: capitalize;
+    border-bottom: 1px dotted sienna;
+}
+
+h4 {
+    font-size: 20px;
+    color: #9f8c86;
+    border-bottom: 1px dotted sienna;
+    width: fit-content;
+}
+h5{
+    font-size: 16px;
+    color: #9f8c86;
+    padding-left: 3%;
+}
+
+p {
+    color: #854442;
+}
+
+header {
+    background-image: url(/img/background-coding.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(59, 38, 33, 0.9);
+    height: 40vh;
+}
+
+/* NAV  */
+
+nav {
+    background-color: #895b4a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    /* border: 1px solid white; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 70%;
+}
+
+nav li {
+    width: 100%;
+    display: flex;
+    border-right: 1px solid #f0eae7;
+}
+
+nav a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #f0eae7;
+    padding: 2%;
+}
+
+nav a:hover {
+    color: #3b2621;
+    text-decoration: underline;
+}
+
+
+/* FIM NAV */
+
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #3b3034;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    background-color: whitesmoke;
+
+}
+
+/* LEFT */
+.left {
+    width: 60%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+}
+
+.left > article:first-child {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+.left > article:first-child article {
+    /* border: 1px solid red; */
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+    line-height: 1.3;
+}
+
+.left > article aside {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    padding-left: 5%;
+    background-color: #f0eae7;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    border-radius: 10px;
+}
+
+.left > article:last-child {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    /* padding: 0% 10%; */
+
+}
+
+.gallery img{
+    height: 20vh;
+    border-radius: 10px;
+}
+
+#gallery-vba img {
+    height: 20vh;
+    width: 40vh;
+}
+
+#gallery-vba {
+    row-gap: 5vh;
+}
+
+#gallery-php {
+    column-gap: 5vh;
+    row-gap: 5vh;
+}
+#gallery-php img{
+    width: 45vh;
+    height: 25vh;
+    object-fit: cover;
+}
+
+#gallery-html {
+    column-gap: 5vh;
+    row-gap: 5vh;
+}
+#gallery-html img{
+    object-fit: cover;
+    height: 40vh;
+    width: 30vh;
+}
+
+#sportsPic{
+    object-position: 50% 0%;
+}
+
+figcaption {
+    display: flex;
+    justify-content: space-between;
+}
+
+figcaption span {
+    color: gray;
+}
+
+figcaption time {
+    color: dimgray;
+}
+
+/* FIM LEFT */
+
+
+/* RIGHT  */
+
+.right {
+    width: 30%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6vh;
+}
+
+.right > article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+.right > article > article{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    line-height: 1.3;
+    padding-left: 2%;
+}
+
+.prof-history aside{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    padding-bottom: 5%;
+
+}
+.prof-history p{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+
+.right h4 a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #854442;
+}
+.right h4 a:hover {
+    text-decoration: underline;
+    color: #212c3e;
+}
+
+/* END RIGHT */
+
+/* FOOTER */
+
+
+footer {
+    color: #f0eae7;
+    text-align: center;
+    padding: 1%;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #f0eae7;
+}
+
+footer a:hover {
+    color: #854442;
+    text-decoration: underline solid orangered 1px;
+}
+
+
+/* cards skills */
+
+.r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    padding-top: 3%;
+}
+.lCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1vh;
+}
+.lCard i {
+    font-size: 50px;
+}
+.lCard i, .lCard p {
+    color: gray;
+    transition: transform .3s ease;
+}
+.lCard:hover i, .lCard:hover p{
+    color: #854442;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.contactRow a {
+    text-decoration: none;
+}
+.contactRow{
+    justify-content: space-around;
+}
